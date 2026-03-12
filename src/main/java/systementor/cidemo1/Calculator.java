@@ -15,7 +15,7 @@ public class Calculator {
         return a * b;
     }
 
-    public int divide (int b, int a) {
+    public int divide (int a, int b) {
         if (b == 0){
             throw new IllegalArgumentException("Divide by zero");
         }
